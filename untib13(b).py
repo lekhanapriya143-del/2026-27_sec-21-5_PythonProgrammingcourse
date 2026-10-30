@@ -1,0 +1,10 @@
+# Example solution: break statement using a while loop
+n = int(input("Enter N (print until N, stop early at 5): "))
+
+number = 1
+while number <= n:
+    if number == 5:
+        print(f"Breaking while loop at number {number} (N was {n})")
+        break
+    print(f"while loop number = {number} (up to {n})")
+    number = number + 1
